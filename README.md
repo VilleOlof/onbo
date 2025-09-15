@@ -21,7 +21,7 @@ For this to work, in your Ninjabrain bot:
 - And make sure `Enable API (starts HTTP server)` is enabled
 
 
-### Built It Yourself
+### Build It Yourself
 I haven't tested this at all for other systems and won't support it myself.  
 One other alternative is building it yourself.  
 
@@ -30,7 +30,7 @@ One other alternative is building it yourself.
 git clone https://github.com/VilleOlof/onbo.git
 cd onbo
 npm run tauri build
-# then the binaries is in `./src-tauri/target/onbo[.exe]`
+# then the binary is in `./src-tauri/target/onbo[.exe]`
 ```
 
 ## OBS Setup
