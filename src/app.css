@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: Minecraft;
+    src: url("/Minecraft.otf");
+}
+
+@theme {
+    --font-mc: "Minecraft", sans-serif
+}
+
+.mc-border {
+    @apply bg-[#343636] border-t-[#666666] border-l-[#666666] border-b-[#626564] border-r-[#626564] border-4 border-inset;
+}
+
+@utility border-inset {
+    border-style: inset;
+}
