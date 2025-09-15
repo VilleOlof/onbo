@@ -30,7 +30,7 @@ One other alternative is building it yourself.
 git clone https://github.com/VilleOlof/onbo.git
 cd onbo
 npm run tauri build
-# then the binary is in `./src-tauri/target/onbo[.exe]`
+# then the binary is in `./src-tauri/target/release/onbo[.exe]`
 ```
 
 ## OBS Setup
