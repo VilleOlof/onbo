@@ -11,6 +11,17 @@
 
 .mc-border {
     @apply bg-[#343636] border-t-[#666666] border-l-[#666666] border-b-[#626564] border-r-[#626564] border-4 border-inset;
+    position: relative;
+}
+
+.mc-border::after {
+    content: '';
+    @apply -top-1 -right-1 w-1 h-1 absolute bg-[#373A39];
+}
+
+.mc-border::before {
+    content: '';
+    @apply -bottom-1 -left-1 w-1 h-1 absolute bg-[#373A39];
 }
 
 @utility border-inset {

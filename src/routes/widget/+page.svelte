@@ -133,7 +133,7 @@
                             : "grass_block.webp"}
                         alt=""
                         style="image-rendering:pixelated;"
-                        class="w-20 h-20 drop-shadow-xl drop-shadow-neutral-950/50"
+                        class="w-20 h-20 p-2 drop-shadow-xl drop-shadow-neutral-950/50"
                     />
                 </div>
 
